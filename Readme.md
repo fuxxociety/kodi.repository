@@ -9,13 +9,14 @@ Configuring as a Kodi Source in File Manager:
 
 1. Enter Kodi **Settings**, then **File Manager**.
 2. Add a new source.
-3. For **Source Type**, select **None**.
+3. For **Source Type**, select **None**. This will allow you to enter the **Source Path**.
 4. For **Source Path**, select **https://fuxxociety.github.io/kodi.repository/**
-5. Name the source whatever you like. I prefer **FuxXociety-Personal**
+5. Name the source whatever you like. I prefer **repository.fuxxociety**
 6. Save the new source by clicking **OK**.
 
 After the new source is added, navigate to the **Add-ons** screen.
-Select **Install from zip file** (ignore any warnings)
+Select **Install from zip file** (ignore any warnings). 
+Navigate to the newly-added source (in my case, **repository.fuxxociety**).
 Install the zip file corresponding to the version of Kodi you are running.
 
 
