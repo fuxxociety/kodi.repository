@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.fuxxociety" name="FuxXocietY's Addon Repository" version="0.0.1" provider-name="fuxxociety">
+<addon id="repository.fuxxociety" version="0.0.1" name="FuxXocietY's Addon Repository" provider-name="fuxxociety">
     <requires>
-	    <import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="FuxXocietY's Addon Repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/</datadir>
-		</dir>
-		<dir minversion="18.0.0">
-			<info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/18-leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/18-leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/18-leia/</datadir>
-		</dir>
-		<dir minversion="19.0.0">
-			<info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/19-matrix/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/19-matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/19-matrix/</datadir>
-		</dir>
-		<dir minversion="20.0.0">
-			<info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/</datadir>
-		</dir>
-		<dir minversion="21.0.0">
-			<info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/21-omega/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/21-omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/21-omega/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">FuxXocietY Personal Repo</summary>
-		<description lang="en">Full repository description</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<icon>fanart.png</icon>
-		</assets>
-	</extension>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="FuxXocietY's Addon Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/</datadir>
+        </dir>
+        <dir minversion="20.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">FuxXocietY Personal Repo</summary>
+        <description lang="en">Full repository description</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
