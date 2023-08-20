@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="context.playtrailer.contextmenu" name="Play trailer - Contextmenu" version="1.0.1" provider-name="gnoling">
+        <requires>
+            <import addon="xbmc.python" version="3.10.0"/>
+        </requires>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.python.script" library="plugin.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Integrate LedFX with Kodi for LED lighting effects.</summary>
+        <description>Control and manage LED lighting effects using LedFX within Kodi.</description>
+        <license>GPL-3.0</license>
+        <website>https://ledfx.app</website>
+        <email></email>
+        <provides>executable</provides>
+  	    <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+        </assets>
+        <language>en</language>
+        <source>https://github.com/fuxxociety/plugin.ledfx</source>
+    </extension>
+  </addon>
+    </addon>
+    <addon id="repository.fuxxociety" name="FuxXocietY's Addon Repository" version="0.0.1" provider-name="fuxxociety">
+        <extension point="xbmc.addon.repository" name="FuxXocietY's Addon Repository">
+            <dir minversion="18.0.0">
+                <info compressed="false">https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/18-leia/addons.xml</info>
+                <checksum>https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/18-leia/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/18-leia</datadir>
+                <hashes>false</hashes>
+            </dir>
+            <dir minversion="19.0.0">
+                <info compressed="false">https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/19-matrix/addons.xml</info>
+                <checksum>https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/19-matrix/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/19-matrix</datadir>
+                <hashes>false</hashes>
+            </dir>
+            <dir minversion="20.0.0">
+                <info compressed="false">https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/20-nexus/addons.xml</info>
+                <checksum>https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/20-nexus/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/fuxxociety/kodi.repository/blob/master/repository.fuxxociety/20-nexus</datadir>
+                <hashes>false</hashes>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>FuxXocietY Personal Repo</summary>
+            <description>Full repository description</description>
+            <platform>all</platform>
+			<assets>
+			    <icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+        </extension>
+    </addon>
+</addons>
