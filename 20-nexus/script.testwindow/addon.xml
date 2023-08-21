@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.testwindow" name="test window" version="0.1.0" provider-name="me">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">window demo script</summary>
+		<description lang="en_GB">a demo script to create a window</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
