@@ -1,29 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-    <addon id="repository.fuxxociety" version="0.0.1" name="FuxXocietY's Addon Repository" provider-name="fuxxociety">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="FuxXocietY's Addon Repository">
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/</datadir>
-            </dir>
-            <dir minversion="20.0.0">
-                <info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">FuxXocietY Personal Repo</summary>
-            <description lang="en">Full repository description</description>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
-</addons>
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.fuxxociety" name="FuxXocietY's Addon Repository" version="0.0.1" provider-name="fuxxociety">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.addon.repository" name="FuxXocietY's Addon Repository">
+        <dir minversion="20.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/fuxxociety/kodi.repository/main/20-nexus/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">FuxXocietY Personal Repo</summary>
+        <description lang="en">Full repository description</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
