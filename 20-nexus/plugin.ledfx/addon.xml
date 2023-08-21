@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.ledfx" name="PlexKodiConnect" version="2.0.72" provider-name="fuxxociety">
+    <requires>
+        <import addon="xbmc.python" version="3.10.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides></provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">LedFX</summary>
+        <description lang="en">LedFX</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3</license>
+        <forum></forum>
+        <website>https://github.com/LedFx/LedFx</website>
+        <assets>
+          <icon>icon.png</icon>
+          <fanart>fanart.png</fanart>
+        </assets>
+        <source></source>
+    </extension>
+</addon>
